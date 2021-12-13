@@ -32,6 +32,7 @@ inoremap jk <Esc>
 let mapleader = " "
 nmap<leader>si :source ~/.ideavimrc
 nmap <leader>dn :actionEditorDuplicate<CR>
+nmap <leader>cb :<CTRL-R>"*y
 
 nmap<leader>i <action>(Generate)
 nmap<leader>/ <action>(ShowErrorDescription)
