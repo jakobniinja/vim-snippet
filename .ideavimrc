@@ -128,9 +128,14 @@ call plug#end()
 
 set encoding=UTF-8
 let mapleader = " "
-noremap x "_x
-noremap X "_x
-inoremap y :<CTRL-R>"*y
+
+map Q gq
+inoremap jk <Esc>
+nnoremap x "_x
+nnoremap X "_X
+vnoremap <C-C> "+y
+map <C-V> "+gP
+
 
 
 
